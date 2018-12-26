@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#6bccc9">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/home"
+                android:background="@drawable/ic_home_black_24dp"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bujji"
+                android:textColor="#a60303"
+                android:id="@+id/bujji"
+      android:background="#fff" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hemanth"
+                android:id="@+id/hem"
+                android:textColor="#a60303"
+                android:background="#fff"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact us"
+                android:textColor="#a60303"
+                android:background="#fff"
+                android:id="@+id/con"/>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
